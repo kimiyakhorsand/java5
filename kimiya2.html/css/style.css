@@ -1,0 +1,56 @@
+
+
+
+.box {
+    width: 900px;
+    min-height: 200px;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.a {
+    background-color: rgb(29, 45, 188);
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 0.5rem;
+    transition: 0.3;
+    
+
+}
+
+.a:hover {
+    width: 100%;
+}
+
+.b {
+    background-color: rgb(225, 217, 58);
+    width: 40%;
+    height: 80px;
+    display: flex;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.c {
+    display: flex;
+    background-color: brown;
+    /* flex-direction: flex-end; */
+    width: 10px;
+    height: 80px;
+    overflow: hidden;
+}
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
